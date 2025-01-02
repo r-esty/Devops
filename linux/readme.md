@@ -18,3 +18,12 @@ Linux is the foundation for most servers, cloud environments, and development wo
 
 Learning Linux provides a strong foundation for working with technologies, automating tasks, and advancing your career in tech.
 
+## OverTheWire Bandit Game: A Hands-On Approach to Learning Linux
+
+The OverTheWire Bandit game is a great way to learn Linux through practical challenges. It takes you step-by-step through fundamental Linux concepts, from basic commands to more complex system interactions. By playing through Bandit, you can build your skills in navigation, file manipulation, permissions, and more.
+
+### How I’ll Provide the Answers
+
+For each level, I'll explain:
+- **What needs to be done**: A simple breakdown of the task at hand.
+- **The solution**: A step-by-step guide to the commands and processes used to complete the level.
