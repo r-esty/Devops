@@ -65,6 +65,4 @@ exit
 * `ls` - List directory contents
 * `cat` - Concatenate files and print on the standard output
 
-## References
-* [Over The Wire: Bandit Level 1 → Level 2](https://overthewire.org/wargames/bandit/bandit2.html)
-* [Linux Command Line Redirection](https://www.gnu.org/software/bash/manual/html_node/Redirections.html)
+
