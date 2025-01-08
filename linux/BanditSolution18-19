@@ -1,0 +1,26 @@
+# Over The Wire: Bandit Level 18 → Level 19
+
+## Level Goal
+The password for the next level is stored in a readme file in the homedirectory. Unfortunately, someone has modified .bashrc to log you out upon login.
+
+## Solution
+
+### Step 1: Execute Remote Command
+Since interactive login is blocked, use SSH to execute command directly:
+```bash
+ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme
+```
+
+Password for next level:
+```
+cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+```
+
+## Key Commands
+* `ssh user@host command`: Execute command remotely via SSH
+* `cat`: Display file contents
+
+## Notes
+* `.bashrc` modification prevents interactive login
+* SSH allows remote command execution without shell access
+* Command executes before `.bashrc` is loaded
