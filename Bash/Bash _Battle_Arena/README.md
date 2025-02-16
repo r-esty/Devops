@@ -26,7 +26,7 @@ The **Bash Battle Arena** is a fun and interactive command-line game designed to
 ### Objective  
 The goal is to "defeat" each level by successfully completing the tasks using Bash scripts. The ultimate aim is to become a **Bash Master.**  
 
-As part of my Bash learning, I have documented the solutions for all 15 levels in this file, detailing the steps I followed, challenges I faced, and how I overcame them.  
+As part of my Bash learning journey, I have recorded the solutions for all 15 levels in this file, outlining the steps I took, the challenges I encountered, and how I resolved them. 
 
 ---
 
