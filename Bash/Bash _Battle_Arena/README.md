@@ -43,3 +43,5 @@ cd Arena
 touch warrior.txt mage.txt archer.txt
 ls
 
+### Explanation  
+This script starts by creating a directory named **Arena** using the `mkdir` command. It then navigates into the **Arena** directory with `cd`. After that, the `touch` command is used to generate three empty text files: `warrior.txt`, `mage.txt`, and `archer.txt`. Finally, the `ls` command displays the contents of the **Arena** directory, verifying that the files were created successfully.  
