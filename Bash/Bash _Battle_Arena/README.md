@@ -50,7 +50,7 @@ ls
 ### Explanation  
 This script begins by creating a new directory called **Arena** using the `mkdir` command. It then navigates into the **Arena** directory using `cd`. After that, the `touch` command is used to create three empty text files: `warrior.txt`, `mage.txt`, and `archer.txt`. Finally, the `ls` command lists the contents of the **Arena** directory to verify that the files were successfully created.
 
-## Level 2
+## Level 2: Number Loop Challenge
 ### Mission
 Write a script that prints numbers from 1 to 10 using a loop.
 
@@ -63,10 +63,4 @@ do
   echo $i  # Print the current number
 done
 Explanation
-This script demonstrates the use of a basic for loop in Bash. Here's how it works:
-
-The {1..10} syntax creates a sequence from 1 to 10
-The for loop iterates through each number in this sequence
-On each iteration, the current number is stored in the variable i
-The echo $i command prints the current value of i
-The loop continues until all numbers have been printed
+This script demonstrates the use of a basic for loop in Bash. The script starts by using the {1..10} syntax to create a sequence of numbers from 1 to 10. The for loop then iterates through each number in this sequence, storing the current number in the variable i. On each iteration, the echo $i command is used to print the current value. This process continues until all numbers from 1 to 10 have been printed to the console.
