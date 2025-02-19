@@ -99,3 +99,24 @@ cp Arena/*.txt Backup/
 
 ### Explanation
 This script performs a simple but essential backup operation. First, it creates a new directory called Backup using the mkdir command. Then, it uses the cp command with the wildcard pattern *.txt to copy all text files from the Arena directory into the newly created Backup directory. The wildcard *.txt matches any file that ends with the .txt extension, making this an efficient way to copy multiple files with a single command.
+
+## Level 5: Battlefield Management
+### Mission
+Create a script that sets up a `Battlefield` directory with character files, creates an `Archive` directory, and moves specific characters to the archive while displaying the contents of both directories.
+
+### Solution
+```bash
+#!/bin/bash
+mkdir -p Battlefield
+touch Battlefield/knight.txt Battlefield/sorcerer.txt Battlefield/rogue.txt
+mkdir -p Archive
+if [ -f "Battlefield/knight.txt" ]; then
+ mv Battlefield/knight.txt Archive/
+fi
+ls Battlefield
+ls Archive
+
+```
+
+### Explanation
+This script demonstrates directory management and file operations. The mkdir -p command creates the Battlefield and Archive directories (the -p flag prevents errors if the directories already exist). Then, using the touch command, three character files are created in the Battlefield directory. The script then uses a conditional check with [ -f ] to verify if knight.txt exists, and if so, moves it to the Archive directory using the mv command. Finally, the ls commands display the contents of both directories to confirm the operations were successful.
