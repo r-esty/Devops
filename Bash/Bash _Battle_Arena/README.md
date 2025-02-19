@@ -45,5 +45,45 @@ ls
 
 ```
 
+
+
 ### Explanation  
 This script begins by creating a new directory called **Arena** using the `mkdir` command. It then navigates into the **Arena** directory using `cd`. After that, the `touch` command is used to create three empty text files: `warrior.txt`, `mage.txt`, and `archer.txt`. Finally, the `ls` command lists the contents of the **Arena** directory to verify that the files were successfully created.
+
+
+# Mission: Print Numbers from 1 to 10
+
+## **Objective**  
+Create a Bash script that outputs the numbers **1 to 10**, one number per line.
+
+---
+
+## **Solution: Using a For Loop**
+```bash
+#!/bin/bash
+
+# Loop from 1 to 10
+for i in {1..10}
+do
+  echo $i  # Print the current number
+done
+Explanation
+The script starts with #!/bin/bash, which ensures the script runs in Bash.
+The for loop iterates through numbers 1 to 10 using {1..10}.
+On each iteration:
+The variable i takes the next number in the sequence.
+The echo $i command prints the value of i.
+The loop continues until i reaches 10, ensuring that numbers 1-10 are printed.
+Expected Output
+Copy
+Edit
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
