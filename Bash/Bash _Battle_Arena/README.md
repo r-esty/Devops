@@ -67,3 +67,20 @@ done
 
 ### Explanation
 This script demonstrates the use of a basic for loop in Bash. The script starts by using the {1..10} syntax to create a sequence of numbers from 1 to 10. The for loop then iterates through each number in this sequence, storing the current number in the variable i. On each iteration, the echo $i command is used to print the current value. This process continues until all numbers from 1 to 10 have been printed to the console.
+
+## Level 3: Hero Detection
+### Mission
+Create a script that checks if a file named `hero.txt` exists in the `Arena` directory and prints an appropriate message.
+
+### Solution
+```bash
+#!/bin/bash
+if [ -f "Arena/hero.txt" ]; then
+ echo "Hero found!"
+else
+ echo "Hero missing!"
+fi
+
+```
+### Explanation
+This script utilizes conditional statements to check for file existence. The [ -f "Arena/hero.txt" ] test condition uses the -f flag to verify if a regular file exists at the specified path. If the file exists, the script outputs "Hero found!" using the echo command. Otherwise, if the file is not found, it outputs "Hero missing!". This demonstrates how to perform basic file system checks in Bash using if-else statements and test conditions.
