@@ -65,5 +65,5 @@ done
 
 ```
 
-Explanation
+### Explanation
 This script demonstrates the use of a basic for loop in Bash. The script starts by using the {1..10} syntax to create a sequence of numbers from 1 to 10. The for loop then iterates through each number in this sequence, storing the current number in the variable i. On each iteration, the echo $i command is used to print the current value. This process continues until all numbers from 1 to 10 have been printed to the console.
