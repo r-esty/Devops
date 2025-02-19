@@ -84,3 +84,18 @@ fi
 ```
 ### Explanation
 This script utilizes conditional statements to check for file existence. The [ -f "Arena/hero.txt" ] test condition uses the -f flag to verify if a regular file exists at the specified path. If the file exists, the script outputs "Hero found!" using the echo command. Otherwise, if the file is not found, it outputs "Hero missing!". This demonstrates how to perform basic file system checks in Bash using if-else statements and test conditions.
+
+## Level 4: Backup Creation
+### Mission
+Create a script that makes a backup of all text files from the `Arena` directory by copying them to a new `Backup` directory.
+
+### Solution
+```bash
+#!/bin/bash
+mkdir Backup
+cp Arena/*.txt Backup/
+
+```
+
+### Explanation
+This script performs a simple but essential backup operation. First, it creates a new directory called Backup using the mkdir command. Then, it uses the cp command with the wildcard pattern *.txt to copy all text files from the Arena directory into the newly created Backup directory. The wildcard *.txt matches any file that ends with the .txt extension, making this an efficient way to copy multiple files with a single command.
