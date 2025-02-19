@@ -85,7 +85,7 @@ fi
 ### Explanation
 This script utilizes conditional statements to check for file existence. The [ -f "Arena/hero.txt" ] test condition uses the -f flag to verify if a regular file exists at the specified path. If the file exists, the script outputs "Hero found!" using the echo command. Otherwise, if the file is not found, it outputs "Hero missing!". This demonstrates how to perform basic file system checks in Bash using if-else statements and test conditions.
 
-## Level 4: Backup Creation
+## Level 4: File Manipulation
 ### Mission
 Create a script that makes a backup of all text files from the `Arena` directory by copying them to a new `Backup` directory.
 
